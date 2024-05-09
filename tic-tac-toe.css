@@ -1,0 +1,129 @@
+body {
+    background-color: #fad2e1;
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    text-align: center;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    color: #fff;
+}
+
+.dark {
+    background-color: #fff;
+}
+
+.dark #header {
+    background-color: #b4cded;
+    color: black;
+}
+
+/* .dark #box {
+    background-color: #EEF4ED;
+} */
+
+.dark .sbox {
+    background-color: #b4cded;
+    color: black;
+    /* box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5); */
+}
+.dark #rb{
+    background-color: #134074;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.dark #msg{
+    color: black;
+}
+
+#c_btw {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("assets/dragon.png");
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    border: 0;
+}
+
+#c_btw:active {
+    transform: scale(0.75);
+}
+
+#mode {
+    display: flex;
+    align-items: center;
+}
+
+#header {
+    background-color: #240046;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+#con {
+    margin: 1rem auto;
+    height: 65vh;
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.sbox {
+    background-color: #240046;  
+    color: #fff;
+    font-size: 8vmin;
+    height: 16vmin;
+    width: 16vmin;
+    border-radius: 1rem;
+    border: 0;
+    box-shadow: 0 0 1rem rgba(168, 161, 161, 0.637);
+}
+
+#rb {
+    background-color: #832161;
+    color: azure;
+    font-weight: 600;
+    padding: 1rem;
+    font-size: 2vmin;
+    border-radius: 3px;
+    border: 0;
+}
+
+#msg {
+    font-size: 4vmin;
+    color: black;
+}
+
+.msg-con {
+    height: 7vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.hide {
+    display: none;
+}
